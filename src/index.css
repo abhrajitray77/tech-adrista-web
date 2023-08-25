@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: FrankRuhMed;
+  src: url('./assets/fonts/FrankRuhlLibre-Medium.ttf');
+}
+
+@font-face {
+  font-family: FrankRuhReg ;
+  src: url('./assets//fonts/FrankRuhlLibre-Regular.ttf');
+}
+
+@font-face {
+  font-family: GreatVibesReg;
+  src: url('./assets//fonts/GreatVibes-Regular.ttf');
+}
