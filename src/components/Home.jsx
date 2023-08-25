@@ -6,6 +6,7 @@ import "../styles/Home.css";
 const Home = () => {
   return (
     <div className="home-sec">
+      
       <section class="about">
         <h1 class="about-head">Elena Joy Photography</h1>
         <p class="about-para">
@@ -16,6 +17,7 @@ const Home = () => {
         <button class="gallery">Gallery</button>
       </section>
       <section class="girl-img">
+      <div class='gray-bg'></div>
         <img class="girl" src={girl} />
         <img class="plant1" src={plant1} />
         <img class="plant2" src={plant2} />
