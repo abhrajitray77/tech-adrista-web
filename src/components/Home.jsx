@@ -8,7 +8,8 @@ const Home = () => {
     <div className="home-sec">
       
       <section class="about">
-        <h1 class="about-head">Elena Joy Photography</h1>
+        <h1 class="about-head">Elena Joy</h1>
+        <h1 class="about-head">Photography</h1>
         <p class="about-para">
           We have an excellent team to florish your Weddings, Parties,
           Birthdays, etc. by our excellent quality Photos. Click below to check
