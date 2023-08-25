@@ -12,8 +12,49 @@
   font-family: GreatVibesReg;
   src: url('./assets//fonts/GreatVibes-Regular.ttf');
 }
-
+body{
+  padding: 0%;
+}
 .navbar {
   display: flex;
+  background-color: #ffa8ef;
 }
 
+.nav-ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-li {
+  margin-left: 20px;
+}
+
+.logo {
+  font-family: GreatVibesReg;
+  color: aliceblue;
+}
+
+.nav-li {
+  font-family: FrankRuhMed;
+  color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+  }
+}

@@ -3,7 +3,7 @@ import './../index.css'
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav class="navbar">
       <h1 class="logo">Elena Joy</h1>
         <ul class="nav-ul">
           <li class="nav-li">About</li>
