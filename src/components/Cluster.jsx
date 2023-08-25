@@ -13,16 +13,16 @@ const Cluster = () => {
         <p>The new light to your wisdom</p>
       </div>
       <div class="images-bg">
-      <div class="left">
-        <img class="img1" src={img1} />
-        <div class="pair">
-          <img class="img4" src={img4} />
-          <img class="img3" src={img3} />
+        <div class="left">
+          <img class="img1" src={img1} />
+          <div class="pair">
+            <img class="img4" src={img4} />
+            <img class="img3" src={img3} />
+          </div>
         </div>
-      </div>
-      <div class="right">
-        <img src={img2} />
-      </div>
+        <div class="right">
+          <img src={img2} />
+        </div>
       </div>
     </div>
   );

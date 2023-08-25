@@ -16,3 +16,10 @@ body{
   padding: 0%;
   margin: 0%;
 }
+
+#footer {
+  background-color: #ff20d2;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}

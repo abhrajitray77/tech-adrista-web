@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import './App.css'
 import Cluster from "./components/Cluster";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
         <Home />
         <Cluster />
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
     
   );

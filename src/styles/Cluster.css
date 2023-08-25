@@ -2,18 +2,26 @@
 .cluster {
     display: flex;
     position: relative;
-    width: auto;
-    height: auto;
+    width: 100%;
 }
 
-.innercluster {
-    position: absolute;
+
+
+.innercluster h1 {
+    font-family: GreatVibesReg ;
+    color: aliceblue;
+    align-content: center;
+}
+
+.innercluster p {
+    font-family:FrankRuhReg ;
+    color: aliceblue;
 }
 
 .images-bg {
     display: flex;
     position: absolute;
-    width: 100%;
+    
 }
 .left{
     display: flex;
@@ -24,3 +32,40 @@
     display: flex;
 
 }
+
+@media (max-width: 768px) {
+    .innercluster {
+        position: absolute;
+        z-index: 100;
+        top: 0%;
+        right: 0%;
+        background-color: #ff006f78;
+        display: block;
+        height: fit-content;
+        width: fit-content;
+        padding-right: 80px;
+        padding-left: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+    
+    }
+
+  }
+  
+  @media (min-width: 768px) {
+    .innercluster {
+        z-index: 100;
+        position: absolute;
+        top: 50%;
+        background-color: #ff006f78;
+        height: fit-content;
+        width: fit-content;
+        padding-right: 80px;
+        padding-left: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+    
+    }
+  }

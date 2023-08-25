@@ -37,6 +37,19 @@
     
 }
 
+:hover.gallery {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+    background-color: #ff17e4;
+    border-radius: 8px;
+    border-color: #f970e9;
+    color: aliceblue;
+    font-family: FrankRuhReg;
+    font-size: 30px;
+}
+
 .girl {
     position: absolute;
     width: 100%;
@@ -48,7 +61,6 @@
     bottom: 0%;
     width: 50%;
     height: 70%;
-
     z-index: 1;
 }
 .plant2 {
@@ -71,6 +83,7 @@
 @media (max-width: 768px) {
     .about {
         max-width: 80%;
+        padding: 20px;
     }
     .home-sec{
         display: grid;

@@ -3,7 +3,10 @@ import React from 'react'
 const Footer = () => {
   return (
     <div id='footer'>
-        Web Building Hackathon, Tech Adhrista 2023, SMIT Sikkim</div>
+      <marquee>
+        Web Building Hackathon, Tech Adhrista 2023, SMIT Sikkim
+      </marquee>
+    </div>
   )
 }
 
