@@ -8,10 +8,16 @@ import React from 'react'
 const Cluster = () => {
   return (
     <div>
-        <div class="im1"><img src={img1}/></div>
-        <div class="im2"><img src={img2}/></div>
-        <div class="im3"><img src={img3}/></div>
-        <div class="im4"><img src={img4}/></div>
+        <div class="leftbox">
+        <img src={img1}/>
+        <div class='innercluster'><h1>Quality Photography</h1>
+        <p>The new light to your wisdom</p>
+        </div>
+        <img src={img2}/>
+        <img src={img3}/>
+        </div>
+        <div class="rightbox"><img src={img4}/>
+        </div>
     </div>
   )
 }
