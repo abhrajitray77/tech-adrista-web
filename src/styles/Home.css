@@ -6,19 +6,51 @@
     align-items: center;
 }
 
+.about-head {
+    font-family:FrankRuhMed ;
+}
+
 .about-para {
-    font-weight: bold;
-    text-align: justify ;
+    text-align: center ;
     padding-left: 20px;
+}
+
+.gallery {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fe97f2;
+    border-radius: 6px;
+    border-color: #f970e9;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.girl-img {
+    background-color: #e0e0e0;
+    max-width: 100vw;
+}
+
+.girl {
+    width: 100vw;
 }
 @media (max-width: 768px) {
     .about {
 
+    }
+    .home-sec{
+        display: grid;
+        grid-template-columns:  repeat(1, minmax(0, 1fr));
     }
   }
   
   @media (min-width: 768px) {
     .about{
       
+    }
+    .home-sec{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
