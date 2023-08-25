@@ -11,6 +11,7 @@ function App() {
       </header>
       <main>
         <Home />
+        <Cluster />
       </main>
     </div>
     
