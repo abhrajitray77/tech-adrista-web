@@ -1,0 +1,24 @@
+
+.about {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-para {
+    font-weight: bold;
+    text-align: justify ;
+    padding-left: 20px;
+}
+@media (max-width: 768px) {
+    .about {
+
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .about{
+      
+    }
+  }

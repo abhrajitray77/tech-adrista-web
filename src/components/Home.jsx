@@ -1,24 +1,22 @@
 import React from 'react'
 import girl from "../assets/img/elena-joy.png"
-import plant1 from "./assets/img/plant1.png"
-import plant2 from "./assets/img/plant2.png"
+import plant1 from "../assets/img/plant1.png"
+import plant2 from "../assets/img/plant2.png"
+import '../styles/Home.css'
 const Home = () => {
   return (
     <div>
-        <div class='lefty'>
-            <h1>Elena Joy Photography</h1>
-            <p>We have an excellent team to florish your Weddings,
+        <section class='about'>
+            <h1 class='about-head'>Elena Joy Photography</h1>
+            <p class='about-para'>We have an excellent team to florish your Weddings,
             Parties, Birthdays, etc. by our excellent quality Photos.
             Click below to check our Gallery</p>
-            <br></br>
-
-            <button>Gallery</button>
-        </div>
-        <div class='righty'>
+            <button class='gallery'>Gallery</button>
+        </section>
+        <div class='girl-img'>
             <div><img src={girl}/></div>
             <div><img src={plant1}/></div>
             <div><img src={plant2}/></div>
-            
         </div>
     </div>
     
