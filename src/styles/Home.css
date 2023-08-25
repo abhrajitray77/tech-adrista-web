@@ -4,6 +4,9 @@
     flex-direction: column;
     align-items: center;
     place-self: center;
+    margin-top: -20%;
+    margin-left: 15%;
+    
 }
 
 .about-head {
@@ -15,14 +18,14 @@
 
 .about-para {
     font-family:FrankRuhReg ;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     text-align: center ;
 }
 
 .gallery {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #fe97f2;
@@ -31,6 +34,7 @@
     color: aliceblue;
     font-family: FrankRuhReg;
     font-size: 30px;
+    
 }
 
 .girl {
