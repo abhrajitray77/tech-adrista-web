@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import './App.css'
+import Cluster from "./components/Cluster";
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
       <header>
         <Navbar />
       </header>
+      
     </div>
+    
   );
 }
 
